@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_mapas.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MapasActivity.class);
             startActivity(intent);
+
         });
 
         btn_arsenal.setOnClickListener(v -> {
