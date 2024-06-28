@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn_arsenal.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ArsenalActivity.class);
             startActivity(intent);
+
         });
 
 
